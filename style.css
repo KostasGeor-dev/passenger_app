@@ -1,0 +1,69 @@
+body {
+    height:100vh;
+    background-image: url("train-station.jpg");
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height:auto;  
+    width:100%;
+    max-width: 500px;
+    border: 4px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+
+#increment-btn {
+    width:130px;
+    margin-right: 10px;
+    padding: 7px 0;
+    background-color: #868588;
+    border:2px solid white;
+    border-radius: 20px;
+    color: black;
+    font-size: 16px;
+    cursor:pointer
+}
+
+#save-btn {
+    width:130px;
+    padding: 7px 0;
+    background-color: #DDB46F;
+    border:2px solid white;
+    border-radius: 20px;
+    color: black;
+    font-size: 16px;
+    cursor:pointer
+}
+
+.counting p, .result p {
+    display: inline-block;
+}
+
+.counting p {
+    margin-bottom: 0
+}
+
+.result p {
+    margin: 0;
+}
+
